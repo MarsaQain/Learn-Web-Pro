@@ -1,0 +1,145 @@
+/* Minggu, 17 Juli 2022 */
+.kotak {
+    width: 50px;
+    padding: 30px;
+    background-color: coral;
+    border: 1px dashed red;
+    text-align: center;
+}
+/* 3 komponen dlm membuat border : tebal, tipe, warna */
+
+.container-row {
+    display: flex;
+    flex-direction: row;
+    background-color: darksalmon;
+    width: 100%; /* */
+}
+
+.container-column {
+    display: flex;
+    flex-direction: column;
+    background-color: darksalmon;
+    width: 100%;
+}
+
+.container-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: darksalmon;
+    width: 100%;
+}
+
+.container-column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: darksalmon;
+    width: 100%;
+}
+
+.container-row-wrap {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: darksalmon;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.container-row-wrap {
+    display: flex;
+    background-color: darksalmon;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.container-row-wrap {
+    display: flex;
+    background-color: darksalmon;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.container-row-center {
+    justify-content: center;
+}
+
+.container-row-flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container-align-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-order {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.container-order #item1 {
+    order: 4;
+}
+
+.container-order #item2 {
+    order: 3;
+}
+
+.container-order #item3 {
+    order: 2;
+}
+
+.container-order #item4 {
+    order: 1;
+}
+
+.container-flex-grow {
+    display: flex;
+}
+
+.container-flex-grow #item1 {
+    flex-grow: 9;
+}
+
+.container-flex-grow #item2 {
+    flex-grow: 8;
+}
+
+.container-flex-grow #item3 {
+    flex-grow: 4;
+}
+
+.container-flex-basis {
+    display: flex;
+}
+
+.container-flex-basis #item1 {
+    flex-basis: 200px;
+}
+
+.container-flex-basis #item2 {
+    flex-basis: 100px;
+}
+
+.container-flex-basis #item3 {
+    flex-basis: 200px;
+    flex-shrink: 100px;
+}
+
+.container-align-self {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-align-self #item1 {
+    align-self: flex-start;
+}
+
+.container-align-self #item1 {
+    align-self: flex-center;
+}
+
+.container-align-self #item1 {
+    align-self: flex-start;
+}

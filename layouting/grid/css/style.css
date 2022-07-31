@@ -1,0 +1,35 @@
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* fr = fraction */
+    grid-template-rows: 150px 100px;
+    grid-template-areas: 
+        "html css js"
+        "preview preview preview";
+        column-gap: 10px;
+        row-gap: 10PX;
+}
+
+.css {
+    grid-area: css;
+    background-color: green;
+}
+
+.html {
+    grid-area: html;
+    background-color: red;
+}
+
+.js {
+    grid-area: js;
+    background-color: blue;
+}
+
+.preview {
+    grid-area: preview;
+    background-color: yellow;
+}
+
+.kotak {
+    
+}
